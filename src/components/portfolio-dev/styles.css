@@ -1,0 +1,45 @@
+body {
+    background-color: #2E343B; /* Cor de fundo semelhante ao da imagem */
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: left;
+    position: relative;
+  }
+  h2 {
+    font-size: 4rem;
+    font-weight: 400;
+    line-height: 1.2;
+    text-align: left;
+    position: relative;
+  }
+  
+  
+  .highlight {
+    color: #00d4d8; /* Cor azul-turquesa para destacar */
+  }
+  
+  .html-tag {
+    font-size: 1rem;
+    color: #00d4d8;
+    display: inline-block;
+    margin: 0 5px;
+    font-family: 'Courier New', monospace;
+  }
+  .html-tags {
+    font-size: 1rem;
+    color: #00d4d8;
+    display: inline-block;
+    margin: 0 5px;
+    font-family: 'Courier New', monospace;
+  }
