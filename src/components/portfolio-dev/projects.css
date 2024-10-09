@@ -1,0 +1,168 @@
+body {
+    background-color: white;
+    color: #333;
+    font-family: Arial, sans-serif;
+    background-image: url('../../assets/image/H.svg');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: #f0f4f8;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+  header h1 {
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 38px;
+  }
+  header a {
+    color: #000080;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .nav-links a {
+    margin: 0 15px;
+    color: black;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .nav-links a:hover {
+    color: #000080;
+  }
+  #projetos, #skills {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.projetos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.projeto-card {
+    background-color: var(--cor-de-fundo-card);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: var(--transicao);
+    padding: 1.5rem;
+}
+
+.projeto-card:hover {
+    transform: translateY(-5px);
+}
+
+.titulo-projeto {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: var(--cor-secundaria);
+}
+
+.projeto-tags {
+    display: flex;
+    flex-wrap:  wrap;
+    margin-top: 1rem;
+}
+
+.projeto-tags span {
+    background-color: #000080;
+    color: white;
+    padding: 0.50rem 0.5rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.projeto h2 {
+    margin-top: 50px; /* Já está correto */
+    padding-top: 2rem; /* Adicione um valor adequado */
+}
+
+
+.titulo-projeto  {
+    color: #000080;
+    font-size: 60px;
+    margin: 20px;
+    padding: 4rem;
+    text-align: center;
+  }
+  .projeto-card p {
+    margin: 1px 0;
+    font-size: 20px;
+    line-height: 32px;
+    padding: 2rem;
+    
+    
+  }
+  img{
+    text-align: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+  }
+  footer {
+    background-color: #2c2f75;
+    color: white;
+    padding: 0.5rem 0;
+    flex-direction: row;
+    margin-top: auto;
+    
+    bottom: 0;
+  }
+  .footer-contents p {
+    text-align: left;
+    margin-top: 1px;
+    font-size: 24px;
+  }
+  .contact-inf {
+    display: flex;
+    justify-content: right;
+    gap: 24px;
+    font-size: 20px;
+  }
+  .contact-inf p {
+    font-size: 24px;
+    text-align: center;
+  }
+  .buttons {
+    margin: 60px 0;
+    text-align: center;
+    padding: 1rem;
+  
+  }
+  
+  .projects-btn {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .projects-btn {
+    background-color: #000080;
+    color: white;
+  }
+ 
+
+  .resume-btn:hover, .projects-btn:hover {
+    background-color: #ccc;
+  }
